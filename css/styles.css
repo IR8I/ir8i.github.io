@@ -6630,6 +6630,10 @@ a.nav-fonto {
   z-index: 1030;
 }
 
+nav.navbar.navbar-expand-lg.navbar-dark.navbar-custom.fixed-top {
+  background-color: white;
+}
+
 .sticky-top {
   position: sticky;
   top: 0;
