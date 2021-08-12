@@ -4158,6 +4158,19 @@ textarea.form-control-lg {
   align-items: center;
 }
 
+.navbar-custom {
+  background-color: white;
+}
+
+@font-face {
+  font-family: 'Roboto', sans-serif;;
+  src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap);
+}
+
+}
+.fized {
+  height: 50px;
+}
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
@@ -7562,6 +7575,11 @@ textarea.form-control-lg {
 .lol {
   padding-bottom: 0.5rem !important;
 }
+
+.nani {
+  color:rgb(62, 49, 49)
+}
+
 .py-5 {
   padding-top: 3rem !important;
   padding-bottom: 3rem !important;
