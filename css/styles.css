@@ -76,7 +76,8 @@ article {
 columns: 4;
 }
 section {
-margin-bottom: 15px;
+margin-bottom: 6px;
+margin-top: 6px;
 }
 .images img{
 width: 100%;
