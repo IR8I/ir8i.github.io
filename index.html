@@ -2,12 +2,12 @@
 <html lang="en">
     <body>
         <div id="loading">
-            <img id="loading-image" src="path/to/ajax-loader.gif" alt="Loading..." />
+            <img id="loading-image" src="assets/ajax-loader.gif" alt="Loading..." />
           </div>
           <script>
-            $(window).load(function() {
+            $(window).on('load', function () {
               $('#loading').hide();
-            });
+            }) 
           </script>
     </body>
     <head>
