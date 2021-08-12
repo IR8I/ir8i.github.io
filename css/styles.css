@@ -4655,6 +4655,9 @@ a.nav-fonto {
 .card-link + .card-link {
   margin-left: 1rem;
 }
+.hegpepe {
+  height: 57px;
+}
 
 .card-header {
   padding: 0.5rem 1rem;
