@@ -69,16 +69,16 @@
   box-sizing: border-box;
 }
 
-bodysan {
+body {
 padding:10px;
 }
-articlesan {
+article {
 columns: 4;
 }
-sectionsan {
+section {
 margin-bottom: 15px;
 }
-.images imgsan{
+.images img{
 width: 100%;
 box-shadow: 0px 0px 5px 0px #5a5a5a;
 }	
