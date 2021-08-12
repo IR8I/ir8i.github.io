@@ -316,8 +316,9 @@ sup {
 }
 
 a {
-  color: #ffffff;
-  text-decoration: underline;
+  color: #000000;
+  text-decoration: none;
+  letter-spacing: 5px;
 }
 a:hover {
   color: #000000;
