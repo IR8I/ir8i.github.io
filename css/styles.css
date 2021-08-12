@@ -75,12 +75,14 @@ element {
 }
 
 html, body {
+  max-width:100%;
   height:auto!important;
   max-width: 100%;
   overflow-x: hidden;
 }
 
 body {
+max-width:100%;
 padding:10px;
 }
 article {
@@ -11471,14 +11473,6 @@ html {
     font-size: 1.5rem;
   }
 }
-.portfolio .portfolio-item {
-  cursor: pointer;
-  position: relative;
-  display: block;
-  max-width: 25rem;
-  border-radius: 0.5rem;
-  overflow: hidden;
-}
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
   top: 0;
@@ -11494,21 +11488,6 @@ html {
   font-size: 1.5rem;
 }
 
-.portfolio-modal .btn-close {
-  color: #1abc9c;
-  font-size: 2rem;
-  padding: 1rem;
-}
-.portfolio-modal .portfolio-modal-title {
-  font-size: 2.25rem;
-  line-height: 2rem;
-}
-@media (min-width: 992px) {
-  .portfolio-modal .portfolio-modal-title {
-    font-size: 3rem;
-    line-height: 2.5rem;
-  }
-}
 
 .footer {
   padding-top: 5rem;
