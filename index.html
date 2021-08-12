@@ -1,5 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+    <body>
+        <div id="loading">
+            <img id="loading-image" src="path/to/ajax-loader.gif" alt="Loading..." />
+          </div>
+          <script>
+            $(window).load(function() {
+              $('#loading').hide();
+            });
+          </script>
+    </body>
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
