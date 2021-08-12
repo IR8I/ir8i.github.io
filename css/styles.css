@@ -316,11 +316,11 @@ sup {
 }
 
 a {
-  color: #1abc9c;
+  color: #ffffff;
   text-decoration: underline;
 }
 a:hover {
-  color: #15967d;
+  color: #000000;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -4164,7 +4164,10 @@ textarea.form-control-lg {
 
 nav-fonto {
   font-family: 'Roboto', sans-serif;;
-  src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap);
+}
+
+a.nav-fonto {
+  font-family: 'Roboto', sans-serif;
 }
 
 }
