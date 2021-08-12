@@ -52,3 +52,9 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+<script>
+            $(window).on('load', function () {
+              $('#loading').hide();
+            }) 
+          </script>
