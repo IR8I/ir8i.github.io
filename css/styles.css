@@ -377,8 +377,8 @@ pre {
   margin-top: 0;
   margin-bottom: 1rem;
   position: relative;
-    bottom: 339px;
-    left: 534px;
+  bottom: 96px;
+  left: 513px;
   overflow: auto;
   font-size: 14px;
 }
@@ -8079,7 +8079,8 @@ small.\.nani {
 .rounded-circle {
   border-radius: 10% !important;
   position: relative;
-  left: 87px;
+  top: 135px;
+  left: 167px;
 }
 
 .rounded-pill {
