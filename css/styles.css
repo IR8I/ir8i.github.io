@@ -340,6 +340,38 @@ samp {
   unicode-bidi: bidi-override;
 }
 
+.fade-in-image {
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
 pre {
   display: block;
   margin-top: 0;
@@ -8047,7 +8079,12 @@ small.\.nani {
 .rounded-circle {
   border-radius: 10% !important;
   position: relative;
-  left: 30px;
+  top: 61px;
+  left: 83px;
+}
+
+marquee{
+  height: 10%;
 }
 
 .rounded-pill {
