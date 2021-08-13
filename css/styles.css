@@ -348,8 +348,7 @@ pre {
     bottom: 339px;
     left: 534px;
   overflow: auto;
-  font-size: 0.875em;
-  font-family: 'Abhaya Libre', serif;
+  font-size: 14px;
 }
 pre code {
   font-size: inherit;
