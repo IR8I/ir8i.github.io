@@ -344,8 +344,12 @@ pre {
   display: block;
   margin-top: 0;
   margin-bottom: 1rem;
+  position: relative;
+    bottom: 339px;
+    left: 534px;
   overflow: auto;
   font-size: 0.875em;
+  font-family: 'Abhaya Libre', serif;
 }
 pre code {
   font-size: inherit;
@@ -749,7 +753,7 @@ progress {
   }
 }
 .row {
-  --bs-gutter-x: 0.5rem;
+  --bs-gutter-x: -19,5rem;
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
@@ -761,8 +765,6 @@ progress {
   flex-shrink: 0;
   width: 100%;
   max-width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * .5);
-  padding-left: calc(var(--bs-gutter-x) * .5);
   margin-top: var(--bs-gutter-y);
 }
 
@@ -4172,7 +4174,6 @@ a.nav-fonto {
   font-family: 'Roboto', sans-serif;
 }
 
-}
 .fized {
   height: 50px;
 }
@@ -4657,7 +4658,7 @@ a.nav-fonto {
   margin-left: 1rem;
 }
 .hegpepe {
-  height: 57px;
+  height: 51px;
 }
 
 .card-header {
@@ -8046,6 +8047,8 @@ small.\.nani {
 
 .rounded-circle {
   border-radius: 10% !important;
+  position: relative;
+  left: 30px;
 }
 
 .rounded-pill {
